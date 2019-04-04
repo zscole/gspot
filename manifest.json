@@ -8,7 +8,7 @@
         "default_popup": "popup.html"
        },
        "permissions": [
-        "https://www.twitter.com/*" 
+        "activeTab" 
        ],    
     "content_scripts": [
         {
