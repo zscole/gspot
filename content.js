@@ -8,7 +8,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/governance/gi, 'assplay');
+            var replacedText = text.replace(/g(o|0)vernance/gi, 'assplay');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
