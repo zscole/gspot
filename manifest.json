@@ -2,7 +2,7 @@
 "manifest_version": 2,
     "name": "GSpot",
     "author": "Zak Cole",
-    "description": "Tired of reading arguments about governance? This handy extension will replace all instances of the word with assplay. V2 now extends to include any mention of MEV or reorgs.",
+    "description": "Tired of reading arguments about governance? GSpot will clean up your Twitter timeline. V2 now extends to include MEV or reorgs.",
     "version": "2.0",
     "browser_action": {
         "default_icon": "icon.png",
