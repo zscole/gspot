@@ -8,7 +8,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/g(o|0)v(e|3)rn(a|4)nc(e|3)/gi, 'assplay').replace(/(a|4)(s|5)(s|5)p(l|1)(a|4)y/gi, 'governance');
+            var replacedText = text.replace(/g(o|0)v(e|3)rn(a|4)nc(e|3)/gi, 'assplay').replace(/(a|4)(s|5)(s|5)p(l|1)(a|4)y/gi, 'governance').replace(/m(e|3)v/gi, 'assplay').replace(/r(e|3)(o|0)rg/gi, 'assplay');
 
             if (replacedText !== text) {
                 element.replaceChild(document.createTextNode(replacedText), node);
